@@ -1,7 +1,7 @@
 
 
-#ifndef __RGS_USBTOUCHSCREEN_H
-#define __RGS_USBTOUCHSCREEN_H
+#ifndef __DRIVER_H
+#define __DRIVER_H
 
 #include <linux/module.h>
 #include <linux/usb.h>
@@ -54,4 +54,4 @@ struct ex111_usb {
 	struct work_struct reset_pipe_work;
 	unsigned int x, y, touch;
 };
-#endif /* __RGS_USBTOUCHSCREEN_H */
+#endif /* __DRIVER_H */
