@@ -1,25 +1,5 @@
 
-/******************************************************************************
- * usbtouchscreen.c
- * Driver for 3M EX111 USB touchscreen
- *******************************************************************************
- * © Copyright 2014 , Rocket Gaming Systems. All Rights Reserved.
- * TRADE SECRETS: CONFIDENTIAL AND PROPRIETARY
- * This software, in all of its forms, and all of the code, algorithms,
- * formulas, techniques and processes embedded therein, and their structure,
- * sequence, selection and arrangement (the "Software") is owned by and
- * constitutes the valuable work, property and trade secrets of  Rocket Gaming
- * Systems or its licensors ("Rocket Gaming Systems"), is protected by
- * copyright law, trade secret law, and other intellectual property laws,
- * treaties, conventions and agreements, including the applicable laws of
- * the country in which it is being used, and any use, copying, revision,
- * adaptation, distribution or disclosure in whole or in part is strictly
- * prohibited except under the terms of an express written consent and license
- * from Rocket Gaming Systems. The Software is available under a license only,
- * and all ownership and other rights are retained by Rocket Gaming Systems.
-
- *****************************************************************************/
-#include <linux/rgs_usbtouchscreen.h>
+#include <driver.h>
 
 static int ex111_init(struct ex111_usb *ex111)
 {
